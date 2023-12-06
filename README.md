@@ -1,9 +1,17 @@
-# The ASP.NET Vue Starter
+# Exemplar Prototype
 
-Hello and welcome to the ASP.NET Vue Starter Template with ASP.NET Minimal API and Vue 3.0. The only things this template contains are:
+> Although going away, I think Exemplar is an excellent case study.
+> This repo uses ASP.NET Core Minimal API as server, and Vue 3 as the application.
+>
+> Why?
+>
+> - To be able to demonstrate for future job interviews
+> - Other examples - Svelte, React, Angular, HTML
 
- - A starter ASP.NET Minimal API in `/server`. It has been setup to serve...
- - A starter Vue 3 app generated using `npm init vue@latest` in the `/app` directory.
+## Features
+
+ - An ASP.NET Minimal API in `/server`
+ - A Vue 3 app in the `/app` directory
 
 Before you get started, however, be sure to navigate into the `/app` directory and:
 
@@ -29,9 +37,7 @@ To get you started quickly we've integrated Tailwind CSS, which is quickly becom
 
 To find out more, you can [head to the docs](https://tailwindcss.com/docs/installation).
 
-### Starter Components
-
-We've added a few starter components for you in `/app/src/components` which were built using the elements from [Tailblocks](https://tailblocks.cc/), a free, open-source block library for Tailwind.
+### Components
 
 ## Simple CMS API
 
@@ -104,5 +110,4 @@ docker run -p 8080:80 prototype
 
 ## Questions? Issues?
 
-The [GitHub repo for this template is here](https://github.com/robconery/prototype). I don't have discussions enabled, but feel free to pop an issue if you like or, better yet, a PR!
-
+The [GitHub repo for this template is here](https://github.com/victortolbert/prototype). I don't have discussions enabled, but feel free to pop an issue if you like or, better yet, a PR!

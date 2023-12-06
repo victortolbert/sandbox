@@ -1,7 +1,7 @@
 {
-  "name": "minimal",
+  "name": "@victortolbert/prototype",
   "version": "1.0.0",
-  "description": "Hello and welcome to the ASP.NET Vue Starter Template with ASP.NET Minimal API and Vue 3.0. The only things this template contains are:",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "dotnet watch --project ./server",
@@ -11,5 +11,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "querystring": "^0.2.1"
+  }
 }

@@ -1,8 +1,60 @@
-# The ASP.NET/Vue Client Application
+# Prototype - ASP.NET/Vue Client Application
 
 This template should help get you started developing with Vue 3, Vite and ASP.NET. You can run this application in isolation (from the API) using `npm run dev` in this directory.
 
 You can run it alongside the API if you run `npm run dev` in the root.
+
+## Features
+
+- AboutView
+- LoginView
+- HomeView
+
+## App
+
+### Components
+
+#### Blocks
+
+##### 1280
+
+```vue
+<template>
+  <div class="container mx-auto max-w-7xl">
+    <slot />
+  </div>
+</template>
+```
+
+##### Features
+
+##### Hero
+
+#### Nav
+
+##### Footer
+
+##### Global
+
+### Composables
+
+#### Seo
+
+## Server
+
+### Api
+
+### Data
+
+### Deployment
+
+### Properties
+
+## Stores
+
+### Content
+
+### Site
 
 ## Recommended IDE Setup
 
@@ -32,6 +84,6 @@ Deployment scripts are setup for you in `/Deployment` and come preconfigured for
 
 ## Questions? Issues?
 
-Please visit the GitHub repo if you have any questions or concerns. As always, we would love an Issue report if you've found a bug or, better yet, a PR with a fix! 
+Please visit the GitHub repo if you have any questions or concerns. As always, we would love an Issue report if you've found a bug or, better yet, a PR with a fix!
 
 Issue first, please, so we can be sure the PR will fit.

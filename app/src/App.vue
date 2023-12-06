@@ -1,7 +1,7 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import Head from "./components/Nav/Global.vue";
-import Footer from "./components/Nav/Footer.vue";
+import { RouterView } from 'vue-router'
+import Head from './components/Nav/Global.vue'
+import Footer from './components/Nav/Footer.vue'
 </script>
 
 <template>
@@ -11,4 +11,3 @@ import Footer from "./components/Nav/Footer.vue";
   </Suspense>
   <Footer class="mt-24" />
 </template>
-
