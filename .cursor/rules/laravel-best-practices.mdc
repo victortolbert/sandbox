@@ -1,0 +1,10 @@
+---
+description: Best practices for Laravel framework
+globs: **/*.{php}
+alwaysApply: false
+---
+- Use Eloquent ORM for database operations
+- Implement proper middleware for authentication and authorization
+- Utilize Laravel's built-in validation for form inputs
+- Leverage Laravel's event system for decoupling components
+- Use Laravel's caching system to improve performance

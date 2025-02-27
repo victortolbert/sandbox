@@ -1,0 +1,9 @@
+---
+description: Best practices for consistent code formatting with Prettier
+globs: **/*.{ts,tsx,js,jsx}
+alwaysApply: false
+---
+- Configure Prettier to work alongside ESLint for unified code style
+- Use Prettier's `--write` flag to format files automatically
+- Implement Prettier in your CI/CD pipeline to enforce formatting
+- Utilize Prettier plugins for additional language support and features

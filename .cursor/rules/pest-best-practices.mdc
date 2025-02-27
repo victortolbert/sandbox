@@ -1,0 +1,9 @@
+---
+description: Best practices for writing tests with Pest in Laravel
+globs: **/*.php
+alwaysApply: false
+---
+- Use Pest's dataset feature for testing multiple scenarios efficiently
+- Leverage Pest's higher-order testing for more readable and maintainable tests
+- Implement proper test coverage using Pest's coverage report
+- Use Pest's parallel testing feature to speed up test execution

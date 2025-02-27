@@ -1,0 +1,133 @@
+Before diving into the best practices, please note that you may need to adapt the globs depending on your specific project structure.
+
+---
+name: laravel-best-practices.mdc
+description: Best practices for Laravel framework development
+globs: **/*.{php}
+---
+
+- Use Eloquent ORM for database operations
+- Implement proper middleware for authentication and authorization
+- Utilize Laravel's built-in validation for form inputs
+- Leverage Laravel's event system for decoupling components
+- Use Laravel's caching system to improve performance
+
+---
+name: inertiajs-best-practices.mdc
+description: Best practices for Inertia.js in Laravel applications
+globs: **/*.{js,jsx,ts,tsx}
+---
+
+- Keep Inertia pages as thin as possible, focusing on data fetching and passing props
+- Use Inertia's shared data feature for global state management
+- Implement proper error handling with Inertia's error pages
+- Use Inertia's progress bar for better user experience during page transitions
+
+---
+name: ziggy-best-practices.mdc
+description: Best practices for using Ziggy in Laravel applications
+globs: **/*.{js,jsx,ts,tsx}
+---
+
+- Use Ziggy for client-side routing to maintain consistency with server-side routes
+- Keep the Ziggy route list up-to-date by running `php artisan ziggy:generate`
+- Utilize Ziggy's named routes for better maintainability
+
+---
+name: pest-best-practices.mdc
+description: Best practices for writing tests with Pest in Laravel
+globs: **/*.php
+---
+
+- Use Pest's dataset feature for testing multiple scenarios efficiently
+- Leverage Pest's higher-order testing for more readable and maintainable tests
+- Implement proper test coverage using Pest's coverage report
+- Use Pest's parallel testing feature to speed up test execution
+
+---
+name: sail-best-practices.mdc
+description: Best practices for using Laravel Sail for development
+globs: **/*.{sh,php}
+---
+
+- Use Sail's built-in services (e.g., MySQL, Redis) for consistent development environments
+- Implement proper environment variable management with Sail's `.env` file
+- Use Sail's `share` command for easy collaboration and debugging
+- Regularly update Sail and its dependencies for security and feature improvements
+
+---
+name: react-best-practices.mdc
+description: Best practices for React component development and state management
+globs: **/*.{ts,tsx,js,jsx}
+---
+
+- Use functional components with hooks instead of class components
+- Implement proper prop type validation using PropTypes or TypeScript
+- Utilize memoization with `useMemo` and `useCallback` for performance optimization
+- Manage global state with Context API or a state management library like Redux
+
+---
+name: typescript-best-practices.mdc
+description: TypeScript coding standards and type safety guidelines
+globs: **/*.{ts,tsx}
+---
+
+- Enable `strict` mode in tsconfig.json for enhanced type checking
+- Use `readonly` for array and object properties to prevent unintended mutations
+- Leverage union types and type guards for better type discrimination
+- Implement custom type guards to narrow types in conditional blocks
+
+---
+name: tailwindcss-best-practices.mdc
+description: Best practices for using Tailwind CSS in your project
+globs: **/*.{ts,tsx,js,jsx,css}
+---
+
+- Use utility-first approach for styling components
+- Create custom utility classes for reusable styles
+- Utilize `@apply` directive to combine multiple utility classes
+- Implement responsive design using Tailwind's responsive modifiers
+
+---
+name: radix-ui-best-practices.mdc
+description: Best practices for using Radix UI components
+globs: **/*.{ts,tsx,js,jsx}
+---
+
+- Use Radix primitives as building blocks for custom components
+- Implement proper accessibility features using Radix's built-in attributes
+- Customize Radix components using the `asChild` prop for better composition
+- Utilize Radix's state management hooks for controlled components
+
+---
+name: vite-best-practices.mdc
+description: Best practices for optimizing Vite build and development
+globs: **/*.{ts,tsx,js,jsx}
+---
+
+- Use `import.meta.env` for environment variables instead of process.env
+- Implement code splitting with dynamic imports for better performance
+- Utilize Vite's plugin system for custom build optimizations
+- Configure proper caching strategies for production builds
+
+---
+name: eslint-best-practices.mdc
+description: Best practices for maintaining code quality with ESLint
+globs: **/*.{ts,tsx,js,jsx}
+---
+
+- Extend recommended configurations for React and TypeScript
+- Create custom rules for project-specific coding standards
+- Use `--fix` flag to automatically fix linting issues
+- Integrate ESLint with your IDE for real-time feedback
+
+---
+name: prettier-best-practices.mdc
+description: Best practices for consistent code formatting with Prettier
+globs: **/*.{ts,tsx,js,jsx}
+---
+
+- Configure Prettier to work alongside ESLint for unified code style
+- Use Prettier's `--write` flag to format files automatically
+- Implement Prettier in your CI/CD pipeline to enforce formatting
+- Utilize Prettier plugins for additional language support and features

@@ -1,0 +1,9 @@
+---
+description: Best practices for Inertia.js in Laravel applications
+globs: Best practices for Inertia.js in Laravel applications
+alwaysApply: false
+---
+- Keep Inertia pages as thin as possible, focusing on data fetching and passing props
+- Use Inertia's shared data feature for global state management
+- Implement proper error handling with Inertia's error pages
+- Use Inertia's progress bar for better user experience during page transitions

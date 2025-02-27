@@ -1,0 +1,9 @@
+---
+description: Best practices for maintaining code quality with ESLint
+globs: **/*.{ts,tsx,js,jsx}
+alwaysApply: false
+---
+- Extend recommended configurations for React and TypeScript
+- Create custom rules for project-specific coding standards
+- Use `--fix` flag to automatically fix linting issues
+- Integrate ESLint with your IDE for real-time feedback

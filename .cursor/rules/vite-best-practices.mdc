@@ -1,0 +1,9 @@
+---
+description: 
+globs: **/*.{ts,tsx,js,jsx}
+alwaysApply: false
+---
+- Use `import.meta.env` for environment variables instead of process.env
+- Implement code splitting with dynamic imports for better performance
+- Utilize Vite's plugin system for custom build optimizations
+- Configure proper caching strategies for production builds

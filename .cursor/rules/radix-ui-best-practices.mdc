@@ -1,0 +1,9 @@
+---
+description: Best practices for using Radix UI components
+globs: **/*.{ts,tsx,js,jsx}
+alwaysApply: false
+---
+- Use Radix primitives as building blocks for custom components
+- Implement proper accessibility features using Radix's built-in attributes
+- Customize Radix components using the `asChild` prop for better composition
+- Utilize Radix's state management hooks for controlled components

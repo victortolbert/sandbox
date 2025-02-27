@@ -1,0 +1,9 @@
+---
+description: Best practices for using Ziggy in Laravel applications
+globs: **/*.{js,jsx,ts,tsx}
+alwaysApply: false
+---
+- Use Ziggy for client-side routing to maintain consistency with server-side routes
+- Keep the Ziggy route list up-to-date by running `php artisan ziggy:generate`
+- Utilize Ziggy's named routes for better maintainability
+
